@@ -1,0 +1,27 @@
+FUSE library version: 2.9.4
+unique: 1, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.27
+flags=0x003ffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000000
+   max_readahead=0x00020000
+   max_write=0x00020000
+   max_background=0
+   congestion_threshold=0
+   unique: 1, success, outsize: 40
+unique: 2, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 954
+   unique: 2, error: -2 (No such file or directory), outsize: 16
+unique: 3, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 966
+   unique: 3, error: -2 (No such file or directory), outsize: 16
+unique: 4, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 983
+   unique: 4, error: -2 (No such file or directory), outsize: 16
+unique: 5, opcode: MKDIR (9), nodeid: 1, insize: 54, pid: 983
+isfile: 206158430256 is a dir
+getattr 0000003000000030 0
+isfile: 206158430256 is a dir
+getdir 0000003000000030
+   getattr -> 32764 923752896 32713
+   unique: 5, success, outsize: 144
+unique: 6, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 983
+   unique: 6, error: -2 (No such file or directory), outsize: 16
